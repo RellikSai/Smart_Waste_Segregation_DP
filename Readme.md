@@ -41,8 +41,7 @@ This project was initially undertaken as a collaborative team effort as part of 
 
 A custom dataset containing **22,138 images** was prepared for training the waste classification model.
 
-<details>
-<summary><strong>📂 View dataset distribution</strong></summary>
+📂 Dataset distribution
 
 | Waste Category | Number of Images |
 |---|---:|
@@ -52,7 +51,6 @@ A custom dataset containing **22,138 images** was prepared for training the wast
 | Plastic | 5,442 |
 | **Total** | **22,138** |
 
-</details>
 
 🔗 **Explore the dataset:** [Garbage Segregation Dataset – Kaggle](https://www.kaggle.com/datasets/saiprasanthsnaidu/garbage-segregation-dataset/data)
 
@@ -60,15 +58,13 @@ The project uses **ConvNeXt-Tiny**, a deep learning architecture adapted through
 
 The trained model analyzes captured images and predicts one of the following categories:
 
-<details>
-<summary><strong>♻️ Four waste categories</strong></summary>
+♻️ Four waste categories
 
 - 🔩 **Metal** – Metallic waste and containers
 - 🌿 **Organic** – Food scraps and biodegradable waste
 - 📦 **Paper/Cardboard** – Paper products and cardboard packaging
 - 🧴 **Plastic** – Plastic bottles, containers and packaging
 
-</details>
 
 ## ⚙️ System Architecture
 
@@ -84,8 +80,7 @@ The current implementation uses a laptop-based image classification system conne
 
 ## 🔧 Hardware and Technologies
 
-<details>
-<summary><strong>🛠️ Hardware components</strong></summary>
+🛠️ Hardware components
 
 | Component | Purpose |
 |---|---|
@@ -100,10 +95,7 @@ The current implementation uses a laptop-based image classification system conne
 | HC-SR04 Ultrasonic Sensors | Object detection and bin-level monitoring |
 | MG90S Servo Motors | Proposed shared trapdoor mechanism |
 
-</details>
-
-<details>
-<summary><strong>💻 Software and technologies</strong></summary>
+💻 Software and technologies
 
 - Python
 - C++
@@ -114,8 +106,6 @@ The current implementation uses a laptop-based image classification system conne
 - Iriun Webcam
 - USB Serial Communication
 - Streamlit (planned monitoring interface)
-
-</details>
 
 ## 🚀 Future Scope
 
@@ -134,7 +124,7 @@ The project can be further improved through:
 | Detail | Description |
 |---|---|
 | Project | Smart Waste Segregation System |
-| Course | Design Practicum |
+| Course | Design Practicum - I |
 | Institution | Indian Institute of Technology Mandi |
 | Domain | Machine Learning, Computer Vision, Embedded Systems and Mechanical Automation |
 
