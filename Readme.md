@@ -9,9 +9,9 @@
 
 ## 🌱 Overview
 
-The **Smart Waste Segregation System** is a Design Practicum project developed at **IIT Mandi** to explore an automated approach to waste management.
+The **Smart Waste Segregation System** is a Problem Statement chosen by us, in th course of Design Practicum conducted at **IIT Mandi** to give students exposure on Real-World problem solving skills and prototype development skills.
 
-The system combines machine learning, computer vision, embedded systems and mechanical automation to identify and segregate waste into four categories: **Metal, Organic, Paper/Cardboard and Plastic**.
+Our Prototype combines machine learning, computer vision, embedded systems and mechanical automation to identify and segregate waste into four categories: **Metal, Organic, Paper/Cardboard and Plastic**.
 
 Our aim is to reduce dependence on manual waste segregation by developing a prototype that can recognize waste materials and physically direct them into their designated collection compartments.
 
@@ -32,14 +32,14 @@ The following section provides an overview of the team members and their respect
 
 ## 🎯 Project Objectives
 
-- Develop a machine learning model to classify different types of waste.
+- Develop a deep learning model (or hybrid of Machine Learning and Deep Learning Models) to classify different types of waste.
 - Integrate computer vision with embedded hardware.
 - Design a motor-driven mechanical sorting mechanism.
 - Automatically direct identified waste into designated compartments.
 - Explore sensor integration for object detection and bin-level monitoring.
 - Build a foundation for smarter and more efficient waste management.
 
-## 📊 Dataset and Machine Learning
+## 📊 Dataset and Model Training
 
 A custom dataset containing **22,138 images** was prepared for training the waste classification model.
 
@@ -56,7 +56,7 @@ A custom dataset containing **22,138 images** was prepared for training the wast
 
 🔗 **Explore the dataset:** [Garbage Segregation Dataset – Kaggle](https://www.kaggle.com/datasets/saiprasanthsnaidu/garbage-segregation-dataset/data)
 
-The project uses **ConvNeXt-Tiny**, a deep learning architecture adapted through transfer learning for four-class waste classification.
+The project uses **ConvNeXt-Tiny** after comparing many evalution metrics across 3 chosen models and atlast, **ConvNeXt-Tiny** had the best performance among the 3 models, a deep learning architecture adapted through transfer learning for four-class waste classification.
 
 The trained model analyzes captured images and predicts one of the following categories:
 
