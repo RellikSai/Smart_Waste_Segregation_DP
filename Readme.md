@@ -17,16 +17,18 @@ Our aim is to reduce dependence on manual waste segregation by developing a prot
 
 ## 👥 Team Members
 
-This project was initially undertaken as a collaborative team effort as part of the Design Practicum course.
+This project was undertaken as a collaborative team effort as part of the Design Practicum course. 
+The following section provides an overview of the team members and their respective profiles.
 
-| Team Member | Contact(Github or LinkedIn) |
-|---|---|
-| Member 1 – Name | Role / Contribution |
-| Member 2 – Name | Role / Contribution |
-| Member 3 – Name | Role / Contribution |
-| Member 4 – Name | Role / Contribution |
-
-*Replace the placeholders with the team members' names and their respective contributions.*
+| Team Member | Github | LinkedIn |
+|---|---|---|
+| Saiprasanth Naidu | [Github](https://github.com/RellikSai)| [LinkedIn](https://www.linkedin.com/in/saiprasanth-naidu-b43a543a0/) |
+| Ahmad Ashraf | [Github](https://github.com/Ahmadd999zz) | [LinkedIn](https://www.linkedin.com/in/ahmad-ashraf-602267330?utm_source=share_via&utm_content=profile&utm_medium=member_android) |
+| Member 3 – Name | [Github]() | [LinkedIn]() |
+| Member 4 – Name | [Github]() | [LinkedIn]() |
+| Member 5 – Name | [Github]() | [LinkedIn]() |
+| Member 6 – Name | [Github]() | [LinkedIn]() |
+| Member 7 – Name | [Github]() | [LinkedIn]() |
 
 ## 🎯 Project Objectives
 
