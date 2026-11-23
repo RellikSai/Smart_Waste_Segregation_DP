@@ -24,8 +24,8 @@ The following section provides an overview of the team members and their respect
 |---|---|---|
 | Saiprasanth Naidu | [Github](https://github.com/RellikSai)| [LinkedIn](https://www.linkedin.com/in/saiprasanth-naidu-b43a543a0/) |
 | Ahmad Ashraf | [Github](https://github.com/Ahmadd999zz) | [LinkedIn](https://www.linkedin.com/in/ahmad-ashraf-602267330?utm_source=share_via&utm_content=profile&utm_medium=member_android) |
-| Member 3 – Name | [Github]() | [LinkedIn]() |
 | Kartik | [Github](https://github.com/kkartiksys) | [LinkedIn](https://www.linkedin.com/in/kartik-051292383?utm_source=share_via&utm_content=profile&utm_medium=member_android) |
+| Harshad Patel | [Github](https://github.com/hhp810108-eng) | [LinkedIn](https://www.linkedin.com/in/harshad-patel-718b69416?utm_source=share_via&utm_content=profile&utm_medium=member_android) |
 | Member 5 – Name | [Github]() | [LinkedIn]() |
 | Member 6 – Name | [Github]() | [LinkedIn]() |
 | Member 7 – Name | [Github]() | [LinkedIn]() |
