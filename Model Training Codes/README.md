@@ -28,12 +28,12 @@ Initially, we planned to develop a hybrid **Deep Learning + Machine Learning arc
 ### Proposed Workflow
 
 ```mermaid
-flowchart TD
-    A["📷 Input Garbage Image"] --> B["🧠 Image Classification Model"]
-    B --> C["Top 2 Classes + Confidence Scores"]
-    C --> E["🌲 Random Forest Model"]
-    D["📡 3–4 Sensor Readings"] --> E
-    E --> F["✅ Final Garbage Classification"]
+flowchart LR
+    A["📷 Input Image"] --> B["🧠 Image Classification"]
+    B --> C["Top 2 Classes<br/>+ Confidence"]
+    C --> E["🌲 Random Forest"]
+    D["📡 Sensor Readings<br/>(3–4 Sensors)"] --> E
+    E --> F["✅ Final Garbage Class"]
 ```
 
 ---
@@ -89,12 +89,12 @@ Based on these experimental comparisons, **ConvNeXt Tiny was selected as the fin
 The final system uses ConvNeXt Tiny to process garbage images and classify them into the four predefined categories.
 
 ```mermaid
-flowchart TD
-    A["📷 Input Garbage Image"] --> B["🧠 ConvNeXt Tiny"]
-    B --> C["🔍 Feature Extraction"]
-    C --> D["📊 Four-Class Classification"]
-    D --> E["📈 Class Confidence Scores"]
-    E --> F["✅ Final Predicted Garbage Category"]
+flowchart LR
+    A["📷 Garbage Image"] --> B["🧠 ConvNeXt Tiny"]
+    B --> C["Feature Extraction"]
+    C --> D["4-Class Classification"]
+    D --> E["📊 Confidence Scores"]
+    E --> F["✅ Predicted Garbage Class"]
 ```
 
 ---
