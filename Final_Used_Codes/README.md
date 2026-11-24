@@ -11,24 +11,6 @@ The Smart Waste Segregation System combines **Machine Learning, Computer Vision,
 
 The system operates through two main stages: **waste identification and decision-making**, followed by **electronic control and mechanical segregation**.
 
-## ⚙️ System Workflow
-
-The overall working process follows this sequence:
-
-```mermaid
-flowchart TD
-    A["📷 Android Smartphone Camera"] --> B["Iriun Webcam"]
-    B --> C["💻 Windows Laptop"]
-    C --> D["ConvNeXt-Tiny ML Model"]
-    D --> E["Waste Classification"]
-    E --> F["USB Serial Communication"]
-    F --> G["ESP32 Controller"]
-    G --> H["A4988 Stepper Driver"]
-    H --> I["NEMA 17 Stepper Motor"]
-    I --> J["Ball Screw Mechanism"]
-    J --> K["🗑️ Selected Waste Bin"]
-    K --> L["Return to Home Position"]
-```
 
 ## 🔍 1. Image Acquisition and Waste Classification
 
@@ -62,10 +44,10 @@ Each waste category is assigned a specific position along the ball screw mechani
 
 | Waste Category | Assigned Position |
 |---|---|
-| 🔩 Metal | Bin A – 70 revolutions |
-| 🌿 Organic | Bin B – 144 revolutions |
-| 📦 Paper / Cardboard | Bin C – 217 revolutions |
-| 🧴 Plastic | Home Position |
+| 🧴 Plastic | Bin 1 - Home Position |
+| 🔩 Metal | Bin 2 – 70 revolutions |
+| 🌿 Organic | Bin 3 – 144 revolutions |
+| 📦 Paper / Cardboard | Bin 4 – 217 revolutions |
 
 After receiving the classification result, the ESP32 moves the sorting assembly to the corresponding bin position. Once the selected position is reached, the mechanism pauses for **2 seconds** to allow the waste to be deposited.
 
