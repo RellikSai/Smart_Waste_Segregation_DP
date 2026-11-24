@@ -68,47 +68,36 @@ This provides a way to monitor garbage accumulation without requiring physical c
 
 ## 🔄 Complete Working Sequence
 
-<details>
+
 <summary><strong>Step 1 – Capture the waste image</strong></summary>
 
 The Android smartphone provides the live camera feed to the laptop through Iriun Webcam. An image is captured to initiate classification.
 
-</details>
 
-<details>
 <summary><strong>Step 2 – Identify the waste category</strong></summary>
 
 The ConvNeXt-Tiny model analyzes the captured image and predicts whether the item is Metal, Organic, Paper/Cardboard or Plastic.
 
-</details>
 
-<details>
 <summary><strong>Step 3 – Transmit the classification result</strong></summary>
 
 The laptop sends the predicted waste category to the ESP32 through USB serial communication.
 
-</details>
 
-<details>
 <summary><strong>Step 4 – Move towards the selected bin</strong></summary>
 
 The ESP32 controls the A4988 driver, which operates the NEMA 17 stepper motor and ball screw mechanism to position the sorting assembly.
 
-</details>
 
-<details>
 <summary><strong>Step 5 – Deposit the waste and return home</strong></summary>
 
 The mechanism pauses for two seconds at the selected bin and then returns to its home position, completing the segregation cycle.
 
-</details>
 
-<details>
 <summary><strong>Step 6 – Monitor garbage fill level</strong></summary>
 
 The HC-SR04 ultrasonic sensor measures the distance to the garbage surface, allowing the bin's fill level to be estimated.
 
-</details>
 
 ## 🧩 Main Components and Their Roles
 
